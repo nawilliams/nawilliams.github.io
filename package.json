@@ -2,8 +2,10 @@
   "name": "nawilliams.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/nawilliams/nawilliams.github.io.git",
   "dependencies": {
     "buttermilk": "^1.1.2",
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.3",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
@@ -14,6 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "yarn build",
+    "deply": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
