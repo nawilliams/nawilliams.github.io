@@ -2,7 +2,7 @@
   "name": "nawilliams.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/nawilliams/nawilliams.github.io.git",
+  "homepage": "https://nawilliams.github.io/website/",
   "dependencies": {
     "buttermilk": "^1.1.2",
     "gh-pages": "^1.2.0",
